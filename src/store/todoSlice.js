@@ -17,10 +17,10 @@ const todoSlice = createSlice({
       state.todos = state.todos.filter((todo) => todo.id !== action.payload.id);
     },
     toggleTodoComplete(state, action) {
-      const toggledTodo = state.todos.find(
+      const toggledTodo7 = state.todos.find(
         (todo) => todo.id === action.payload.id
       );
-      toggledTodo.isCompleted = !toggledTodo.isCompleted;
+      toggledTodo7.isCompleted = !toggledTodo7.isCompleted;
     },
   },
 });
